@@ -1,0 +1,12 @@
+<section>
+  <app-alumno
+  *ngFor = "let item of alumnos"
+  [alumno= "item"]
+  >
+  Nombre: {{item.nombre}}
+  <br>
+  Apellido: {{item.apellido}}
+  <br>
+  Edad: {{item.edad}}
+  </app-alumno>
+</section>
